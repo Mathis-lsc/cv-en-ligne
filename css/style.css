@@ -1,0 +1,59 @@
+body {
+
+     background: #57626d;
+
+font-family: 'Segoe UI', sans-serif;
+
+}
+
+h3 {
+
+color: #ffffff;
+
+}
+
+/* La directive @media en CSS sert à appliquer des styles spécifiques selon les caractéristiques du périphérique */
+
+/* Ici, la taille de la police est reduite si l'ecran est inferieur a 768 pixel */
+
+@media (max-width: 768px) {
+
+h2, h3 {
+
+font-size: 1.2rem;
+
+}
+
+}
+
+ 
+
+/* Fond pour la colonne de gauche avec photo et informations de contact */
+.col-md-4 {
+  background-color: #000000 !important;
+  color: rgb(255, 255, 255) !important;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(255, 253, 253);
+}
+
+/* Texte blanc pour h2 et paragraphes dans la colonne gauche */
+.col-md-4 h2,
+.col-md-4 p {
+  color: #f8f8f8 !important;
+}
+
+/* Fond pour la colonne de droite avec le contenu principal du CV */
+.col-md-8 {
+  background-color: #53494900;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(235, 229, 229);
+  border-left: 5px solid #fafbff;
+}
+
+/* Ajout d'espace et couleur pour les titres de section */
+.col-md-8 h3 {
+  margin-top: 20px;
+  color: #fcfcfc;
+}
